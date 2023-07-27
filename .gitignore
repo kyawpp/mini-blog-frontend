@@ -1,1 +1,57 @@
-*.skb
+# Node.js
+node_modules/
+
+# Compiled output
+build/
+dist/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependency lock files
+yarn.lock
+package-lock.json
+
+# Editor-specific files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.idea/
+*.iml
+
+# Testing files
+coverage/
+
+# macOS files
+.DS_Store
+
+# Ant Design specific
+/node_modules/
+/build/
+/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React specific
+.cache/
+*.log
+*.pid
+*.seed
+*.pid.lock
+*.log.*
+*.npm
+*.yarn
+.pnp.*
+*.pnp.*
+node_modules/
+.build/
+
+# Dependency directories
+/src/ant-design/
+/src/react/
